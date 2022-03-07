@@ -1,0 +1,165 @@
+body {
+  background: #fb934b;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-size: 1.2rem;
+  line-height: 1.4em;
+  margin: 0em;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.3rem;
+}
+
+p {
+  margin-bottom: 1.6em;
+}
+
+.container {
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.seccion {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.header {
+  background-color: #14ac9c;
+  color: white;
+  padding: 1rem 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-logo img {
+  width: 150px;
+}
+
+.navigation a {
+  margin: 0;
+  padding: 0.5rem 0.5rem;
+}
+
+.navigation a:hover {
+  background: #fb934b;
+  border-radius: 5px;
+}
+.main {
+  padding-top: 18rem;
+  text-align: justify;
+}
+
+.img-barra img {
+  width: 100%;
+}
+
+/*==================================
+Footer
+====================================*/
+.footer {
+  background-color: #14ac9c;
+  padding: 2rem;
+}
+
+.footer img {
+  width: 50%;
+}
+
+.cnt-footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.contenido-foot p,
+li {
+  color: white;
+}
+
+.contenido-foot p {
+  font-size: 1.2rem;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+}
+
+.form h1, h2{
+  text-align: center;
+}
+
+.datos-cnt input{
+  display: block;
+  width: 100%;
+  height: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#boton-frm{
+  background-color: red;
+  color: var(--blanco);
+  padding: 1rem;
+  border:none;
+}
+
+.contenedor{
+  width: min(85%, 120rem);
+  margin: 0 auto;
+}
+
+.seccion{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.descripcion{
+  text-align: center;
+}
+
+.botones-tabla{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.boton-tabla{
+  padding: .5rem;
+  color: black;
+  border: none;
+}
+
+.amarillo{
+  background: yellow;
+}
+
+.rojo{
+  background: red;
+}
+
+.verde{
+  background:green;
+}
+
+td{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}

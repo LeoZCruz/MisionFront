@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Delicious Cakes</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container logo-nav-container">
+            <div class="container-logo">
+                <a href="index.html" class="logo">
+                    <img src="assets/img/logo.png" alt="logo(Delicious Cakes) " width="60%">
+                </a>
+            </div>
+            <nav class="navigation">
+                <a href="index.html">Pedidos</a>
+            </nav>
+        </div>
+    </header>
+    <section class="dashboard seccion contenedor">
+        <div class="grafico">
+            <h1>Ventas del mes</h1>
+            <div class="piechart"></div>
+        </div>
+
+        <h2>Inventario</h2>
+        
+        <table class="li-propiedades contenedor seccion">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Cantidad disponible</th>                    
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+        
+            <tbody>                
+                <tr>            
+                    <td>1</td>
+                    <td>Chocolate</td>
+                    <td>15</td>                    
+                    <td>
+                    <div class="botones-tabla">                        
+                        <input type="submit" class="boton-tabla amarillo" value="EDITAR">           
+                        <input type="submit" class="boton-tabla rojo" value="ELIMINAR">
+                    </div>                                         
+                    </td>                           
+                </tr>
+                <tr>            
+                    <td>2</td>
+                    <td>Vainilla</td>
+                    <td>11</td>                    
+                    <td>
+                    <div class="botones-tabla">                        
+                        <input type="submit" class="boton-tabla amarillo" value="EDITAR">           
+                        <input type="submit" class="boton-tabla rojo" value="ELIMINAR">
+                    </div>                                         
+                    </td>                           
+                </tr>
+                <tr>            
+                    <td>3</td>
+                    <td>Fresa</td>
+                    <td>22</td>                    
+                    <td>
+                    <div class="botones-tabla">                        
+                        <input type="submit" class="boton-tabla amarillo" value="EDITAR">           
+                        <input type="submit" class="boton-tabla rojo" value="ELIMINAR">
+                    </div>                                         
+                    </td>                           
+                </tr>
+                <tr>            
+                    <td>4</td>
+                    <td>Cafe</td>
+                    <td>6</td>                    
+                    <td>
+                    <div class="botones-tabla">                        
+                        <input type="submit" class="boton-tabla amarillo" value="EDITAR">           
+                        <input type="submit" class="boton-tabla rojo" value="ELIMINAR">
+                    </div>                                         
+                    </td>                           
+                </tr> 
+            </tbody>
+        
+        </table>
+
+        <h2>Pedidos</h2>
+
+        <table class="li-propiedades seccion">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Celular</th>                    
+                    <th>Correo</th>
+                    <th>Direccion</th>
+                    <th>Resumen Pedido</th>
+                    <th>Estado</th>                    
+                </tr>
+            </thead>
+        
+            <tbody>                
+                <tr>            
+                    <td>1</td>
+                    <td>Leonel Cruz</td>
+                    <td>5583943663</td>                    
+                    <td>LCRUZ@launchux.mx</td>
+                    <td>Chimalhuacan, calle:chopo, Edo Mex</td>
+                    <td>Pastel: Vainilla Adorno:Gorros,Velas Tamaño:Grande</td>
+                    <td>
+                    <div class="botones-tabla">                        
+                        <input type="submit" class="boton-tabla amarillo" value="CANCELADO">           
+                        <input type="submit" class="boton-tabla verde" value="ENTREGADO">
+                    </div>                                         
+                    </td>                           
+                </tr> 
+            </tbody>
+        
+        </table>
+    </section>
+    <footer class="footer">
+        <div class="contenedor cnt-footer">
+            <a href="#">
+                <img src="assets/img/logo.png" alt="logo">
+            </a>
+            <div class="contenido-foot enlaces">
+                <ul>
+                    <p>Menu</p>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="">Tienda</a></li>
+                    <li><a href="">Contacto</a></li>
+                </ul>
+            </div>
+    </footer>
+</body>
+</html>
